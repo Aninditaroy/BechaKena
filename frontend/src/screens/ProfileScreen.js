@@ -99,7 +99,7 @@ function ProfileScreen(props) {
                 {orders.map(order => <tr key={order._id}>
                   <td>{order._id}</td>
                   <td>{order.createdAt}</td>
-                  <td>{order.totalPrice}</td>
+                  <td>৳{order.totalPrice}</td>
                   <td>
                     <Link to={"/order/" + order._id}>DETAILS</Link>
                   </td>

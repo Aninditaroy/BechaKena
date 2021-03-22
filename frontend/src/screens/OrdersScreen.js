@@ -44,7 +44,7 @@ function OrdersScreen(props) {
             {orders.map(order => (<tr key={order._id}>
               <td>{order._id}</td>
               <td>{order.createdAt}</td>
-              <td>{order.totalPrice}</td>
+              <td>৳{order.totalPrice}</td>
               <td>{order.user.name}</td>
               <td>
                 <Link to={"/order/" + order._id} className="button secondary" >Details</Link>

@@ -42,17 +42,17 @@ function PlaceOrderScreen(props) {
       <div className="placeorder-info">
         <div>
           <h3>
-            Shipping
+            Shipping Address
           </h3>
           <div>
             {cart.shipping.address}, {cart.shipping.city},
-          {cart.shipping.postalCode}, {cart.shipping.country},
+            {cart.shipping.postalCode}, {cart.shipping.country},
           </div>
         </div>
         <div>
-          <h3>Payment</h3>
+          <h3>Payment Method</h3>
           <div>
-            Payment Method: {cart.payment.paymentMethod}
+           {cart.payment.paymentMethod}
           </div>
         </div>
         <div>
